@@ -1,3 +1,7 @@
+if ($IsWindows) {
+    $env:path = $env:path + ";C:\Program Files\Git\mingw64\bin";
+}
+
 $password = Read-Host -AsSecureString "Please enter a password"
 Write-Host $password
 Write-Host (ConvertFrom-SecureString -SecureString $password -AsPlainText)
