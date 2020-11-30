@@ -4,6 +4,6 @@
 
 `./password.ps1`
 
-![Example Encrypt Password](https://github.com/vls29/powershell-openssl-example/image1.jpg)
+![Example Encrypt Password](https://github.com/vls29/powershell-openssl-example/image1.jpg?raw=true)
 
 
